@@ -3,8 +3,6 @@
 
 # G3 Project
 
-[中文版 README](README.zh_CN.md)
-
 ## About
 
 This is the project we used to build enterprise-oriented generic proxy solutions,
@@ -12,25 +10,25 @@ including but not limited to proxy / reverse proxy (WIP) / load balancer (TBD) /
 
 ## Components
 
-G3 Project is make up of many components.
+G3 Project is made up of many components.
 
-The project level docs resides in the *doc* subdirectory, and you should see the links below for the important ones.
+The project-level docs reside in the *doc* subdirectory, and you should see the links below for the important ones.
 Each component will have its own doc in its *doc* subdirectory.
 
 ### g3proxy
 
-A generic forward proxy solution, but you can also use it as tcp streaming / transparent proxy / reverse proxy
+A generic forward proxy solution, but you can also use it as TCP streaming / transparent proxy / reverse proxy
 as we have basic support built in.
 
 See [g3proxy](g3proxy/README.md) for detailed introduction.
 
 ### g3tiles
 
-A work in progress reverse proxy solution.
+A work-in-progress reverse proxy solution.
 
 ### g3bench
 
-A benchmark tool, which support HTTP 1.x / HTTP 2 / HTTP 3 / TLS Handshake / DNS / Cloudflare Keyless.
+A benchmark tool, which supports HTTP 1.x / HTTP 2 / HTTP 3 / TLS Handshake / DNS / Cloudflare Keyless.
 
 See [g3bench](g3bench/README.md) for detailed introduction.
 
@@ -75,12 +73,12 @@ If you want to do a release build:
     ```
 
     All vendor sources will be added to the source tarball, so you can save the source tarball and build it offline at
-    anywhere that have the compiler and dependencies installed.
+    anywhere that has the compiler and dependencies installed.
 
  2. build the package
 
     For deb package:
-    ```shell
+    ``` shell
     tar xf <name>-<version>.tar.xz
     cd <name>-<version>
     ./build_deb_from_tar.sh
@@ -111,9 +109,9 @@ If you want to build a package directly from the git repo:
 
 ### Pre-Built Packages
 
-It is recommended to build packages by yourselves if you want to do install in production environment.
+It is recommended to build packages by yourselves if you want to install them in a production environment.
 
-For testing purpose, we have built and uploaded some packages to
+For testing purposes, we have built and uploaded some packages to
 [cloudsmith](https://cloudsmith.io/~g3-oqh/repos/g3-J0E/packages/), you will find install instructions there.
 
 ## Contribution
@@ -126,7 +124,7 @@ Please check [Code of Conduct](CODE_OF_CONDUCT.md) for more details.
 
 ## Security
 
-If you discover a potential security issue in this project, or think you may
+If you discover a potential security issue in this project or think you may
 have discovered a security issue, we ask that you notify Bytedance Security via our
 [security center](https://security.bytedance.com/src) or [vulnerability reporting email](mailto:sec@bytedance.com).
 
